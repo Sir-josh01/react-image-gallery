@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/react-image-gallery",
   server: {
     port: 3000,
   },
